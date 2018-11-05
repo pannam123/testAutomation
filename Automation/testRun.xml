@@ -2,13 +2,13 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 <suite name="Project1" verbose="1">
     <listeners>
-        <listener class-name="Listeners.ExecutionListener" />
+        <!-- listener class-name="Listeners.ExecutionListener" / -->
         <!-- listener class-name="Listeners.TestListener" / -->
     </listeners>
     <test name="Test">
 
         <classes>
-            <class name="Scripts.TestRunner"/>
+            <!--  class name="Scripts.TestRunner"/ -->
         </classes>
     </test>
 </suite>
